@@ -1,0 +1,163 @@
+/* document */
+body {
+  color: #660524;
+  font-size: 1.2em;
+  font-family: "Josefin Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+header {
+  height: 6em;
+  letter-spacing: .23em;
+  padding-left: .4em;
+}
+h1 {
+  margin: 0 !important;
+}
+
+header, section {
+    border-bottom: solid .2em #660524;
+}
+
+#intro {
+  float: left;
+  display: inline-block;
+}
+#contact {
+  float: right;
+  display: inline-block;
+}
+
+img {
+  padding: .5em;
+  margin: 1em;
+  border: black solid .02em;
+}
+
+/* masthead */
+.masthead {
+  padding: 2.5em 0;
+  background-image: url('../images/alexandre-perotto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid .4em #B4555D;
+  color: white;
+}
+
+.masthead-intro {
+  margin-bottom: -.68em;
+  font-size: 2.5em;
+  font-family: "Petit Formal Script", Georgia, serif;
+  letter-spacing: .1em;
+  text-shadow: 0 0.03em .5em #731734;
+}
+
+.masthead-heading {
+  font-size: 4em;
+  font-family: "Josefin Sans", "Helvetica Neue", sans-serif;
+  font-weight: light;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  text-shadow:
+    -2px -2px 0 white,  
+     2px -2px 0 white,
+    -2px  2px 0 white,
+     2px  2px 0 white;
+  color: #B4555D;
+}
+
+
+
+/* content */
+.content-width {
+  max-width: 32em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.7em;
+  line-height: 180%;
+}
+
+.content-font > p {
+  font-weight: 350;
+  letter-spacing: .06em;
+  color: #b40a3f;
+}
+
+
+a.body-link {
+  text-decoration: none;
+  color: #ffa24d;
+}
+
+a.body-link:hover {
+  color: #660524;
+  font-weight: Bold;
+}
+
+.more-sec > h1 {
+  margin-bottom: -.6em;
+}
+
+.more-sec > h2 {
+  margin-top: 2em;
+  margin-bottom: -.2em;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: .23em;
+  padding-left: .7em;
+  font-family: "Petit Formal Script", "Josefin Sans", Georgia, serif;
+  color: #ffa24d;
+}
+
+
+
+/* footer */
+.links-footer {
+  margin-top: 3.3em;
+  padding: 2em 0;
+  background-color: #B4555D;
+  border-top: solid .2em #660524;
+}
+
+.links-footer > p {
+  color: white;
+  font-family: "Petit Formal Script", Georgia, serif;
+  font-size: .8em;
+}
+
+.soc-med {
+  margin-right: 2.1em; 
+  font-family: "Josefin Sans", Georgia, serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: -.2em;
+  margin-top: 0;
+}
+
+.soc-med > li {
+  display: inline-block;
+}
+
+.soc-med > li > a {
+ text-decoration: none;
+ color: #ffbd80;
+}
+
+.soc-med > li > a:hover { 
+  color: #660524;
+}
+
+a.cover-info {
+  font-size: .8em;
+  color: white;
+  text-decoration: none;
+}
+
+a.cover-info:hover {
+  color: #660524;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+      background-color: black;
+    }
+}
