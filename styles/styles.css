@@ -58,8 +58,9 @@ nav {
   text-align: center;
   width: 14em;
   margin-top: .2em;
-  position: relative;
+  position: absolute;
   z-index: 9999;
+  left: 41%;
 }
 
 #navBackground {
@@ -96,7 +97,10 @@ nav {
 #navFilm {
   margin-left: 8.55em;
 }
-
+#backToMenu {
+  -webkit-text-stroke: 2px black;
+  opacity: 1;
+}
 .navButton.hoveron:hover {
     color: #888;
     background-color: black;
