@@ -47,11 +47,11 @@ $(function() {
                 opacity: 1
             }, 2000);
         });
-        $("#name").delay(350).animate({
+        $("#name").delay(1050).animate({
             "left": "2%",
             "top": "85%"
         }, 2600);
-        $("#lastName").delay(100).animate({
+        $("#lastName").delay(800).animate({
             "left": "100%",
             "top": "0%"
         }, 1900);
