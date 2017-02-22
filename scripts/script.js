@@ -75,23 +75,30 @@ $(function() {
         $(".activeTab").animate({
             "left": "41%",
             "margin-left": ".2em"
-        }, 850);
-        /*
-        $("#navBackground, .hoveron").delay(900).animate({
-            "left": "100%",
-            "opacity": "0"
+        }, 850, function() {
+            $(".activeTab").animate({
+                "margin-top": ".2em"
+            }, 850, function() {
+                $(".navButton").addClass("hoveron").removeClass("activeTab").css("background-color", "transparent").css("opacity", ".9");
+            });
+        });
+        $("#navBackground").delay(900).animate({
+            "left": 0,
+            "opacity": "1"
+        }, 1000);
+        $(".hoveron").delay(900).animate({
+            "left": "41%",
+            "opacity": "1"
         }, 1000);
 
         $("#name").delay(1050).animate({
-            "left": "2%",
-            "top": "85%"
+            "left": "20%",
+            "top": "50%"
         }, 2600);
-        $("#lastName").delay(800).animate({
-            "left": "100%",
-            "top": "0%"
+        $("#lastName").delay(1600).animate({
+            "left": "35%",
+            "top": "40%"
         }, 1900);
-        */
-        $(".navButton").addClass("hoveron").removeClass("activeTab").css("background-color", "transparent").css("opacity", ".9");
         console.log('great');
     });
 });
