@@ -19,11 +19,12 @@ body {
   opacity: .6;
 }
 .selectedProjects {
-  height: 4vw;
+  height: 16vw;
   width: 100vw;
 }
 .selectedProjectImage {
   height: 100%;
+  margin: 0 1em;
 }
 #bodycontent {
   position: fixed;
